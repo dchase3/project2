@@ -11,14 +11,25 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* minor third http://www.modularscale.com/?18&px&1.2&web&text */
 
-body {
+html {
   font-size: 1.125em; /* 18px */
   line-height: 1.222em; /* 22px */
+  color: #2FE;
+  background-color: #222;
+  padding: 1.222em 16.5px;
 }
 
 h1 {
   font-size: 1.728em; /* 31.104px */
   line-height: 1.415em; /* 44px @ 31.104px em */
+}
+h2 {
+  font-size: 1.45em; 
+  line-height: 1.22em;
+}
+
+a {
+  color: #EF2;
 }
 
 p,
@@ -32,4 +43,11 @@ li {
 
 li:last-child {
   padding-bottom: 0;
+}
+
+/*modular styles*/
+
+.content ul {
+  list-style-type: disc;
+  padding-left: 0.916em;
 }
